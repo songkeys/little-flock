@@ -12,7 +12,7 @@
 
 ## Demo
 
-<video src="https://raw.githubusercontent.com/songkeys/little-flock/main/docs/demo.mp4" poster="https://raw.githubusercontent.com/songkeys/little-flock/main/docs/demo-poster.jpg" controls width="1280"></video>
+[![Watch the Little Flock gameplay demo](docs/demo-poster.jpg)](https://github.com/songkeys/little-flock/raw/refs/heads/main/docs/demo.mp4)
 
 [Watch / download the demo](docs/demo.mp4) · [Download the full 1080p trailer](https://github.com/songkeys/little-flock/releases/download/demo/little-flock-gameplay-trailer.mp4)
 
