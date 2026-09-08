@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+server/data/
+server/shepherd
+*.log
+playwright-report/
+test-results/
+.DS_Store
+*.tsbuildinfo

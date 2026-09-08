@@ -1,0 +1,302 @@
+{
+  "breeds": [
+    {
+      "id": "cloud",
+      "name": "云朵羊",
+      "rarity": "common",
+      "color": "#fff4d8",
+      "faceColor": "#695549",
+      "accent": "#ffb8b8",
+      "description": "像一团刚晒过太阳的棉花，柔软又安心。",
+      "personality": "喜欢慢悠悠地晒太阳",
+      "woolValue": 12
+    },
+    {
+      "id": "milktea",
+      "name": "奶茶羊",
+      "rarity": "common",
+      "color": "#cda577",
+      "faceColor": "#604636",
+      "accent": "#e8c6a0",
+      "description": "焦糖色的小卷毛，闻起来仿佛有饼干的香气。",
+      "personality": "永远期待下一顿点心",
+      "woolValue": 12
+    },
+    {
+      "id": "mint",
+      "name": "薄荷羊",
+      "rarity": "uncommon",
+      "color": "#b6dcc3",
+      "faceColor": "#556b57",
+      "accent": "#7abc9b",
+      "description": "头顶一片嫩叶，走到哪里都带着春天。",
+      "personality": "喜欢在花圃旁打盹",
+      "woolValue": 16
+    },
+    {
+      "id": "peach",
+      "name": "桃桃羊",
+      "rarity": "uncommon",
+      "color": "#f5bfc1",
+      "faceColor": "#80606a",
+      "accent": "#ed8fa9",
+      "description": "粉扑扑的脸颊，是农场里最甜的小太阳。",
+      "personality": "一被摸摸就忍不住蹦跳",
+      "woolValue": 16
+    },
+    {
+      "id": "biscuit",
+      "name": "饼干羊",
+      "rarity": "uncommon",
+      "color": "#dab588",
+      "faceColor": "#624533",
+      "accent": "#aa7c52",
+      "description": "每一块巧克力色斑点，都是独一无二的小秘密。",
+      "personality": "最爱和朋友挤在一起",
+      "woolValue": 16
+    },
+    {
+      "id": "rain",
+      "name": "雨滴羊",
+      "rarity": "rare",
+      "color": "#abd5e5",
+      "faceColor": "#596a88",
+      "accent": "#70b5d5",
+      "description": "收集了天空的蓝，雨天也有好心情。",
+      "personality": "雨滴落下时特别活泼",
+      "woolValue": 23
+    },
+    {
+      "id": "honey",
+      "name": "蜜糖羊",
+      "rarity": "rare",
+      "color": "#f3d17d",
+      "faceColor": "#796342",
+      "accent": "#e8a946",
+      "description": "金灿灿的绒毛像一小罐蜂蜜。",
+      "personality": "总围着盛开的花转",
+      "woolValue": 23
+    },
+    {
+      "id": "mushroom",
+      "name": "蘑菇羊",
+      "rarity": "rare",
+      "color": "#c2a48d",
+      "faceColor": "#644d42",
+      "accent": "#d97864",
+      "description": "森林送来的小客人，藏着温柔的冒险心。",
+      "personality": "喜欢树荫里的安静角落",
+      "woolValue": 23
+    },
+    {
+      "id": "sakura",
+      "name": "樱花羊",
+      "rarity": "epic",
+      "color": "#f9cfdf",
+      "faceColor": "#927082",
+      "accent": "#eb9fbb",
+      "description": "春风拂过，仿佛有花瓣从绒毛里飘下来。",
+      "personality": "特别珍惜每一次拥抱",
+      "woolValue": 34
+    },
+    {
+      "id": "moon",
+      "name": "月光羊",
+      "rarity": "epic",
+      "color": "#c5c7ec",
+      "faceColor": "#626887",
+      "accent": "#f5e9a4",
+      "description": "把月色织进了绒毛，陪你走过安静的夜。",
+      "personality": "夜晚比白天更精神",
+      "woolValue": 34
+    },
+    {
+      "id": "stardust",
+      "name": "星尘羊",
+      "rarity": "epic",
+      "color": "#949bcf",
+      "faceColor": "#52577c",
+      "accent": "#f5d784",
+      "description": "深蓝绒毛里的点点金光，是迷路的小星星。",
+      "personality": "抬头看星星时会发呆",
+      "woolValue": 34
+    },
+    {
+      "id": "aurora",
+      "name": "极光羊",
+      "rarity": "legendary",
+      "color": "#d3f4e8",
+      "faceColor": "#8876a8",
+      "accent": "#dcc0ed",
+      "description": "据说只有用心照顾农场的人，才能遇到这道极光。",
+      "personality": "带着好奇探索整个世界",
+      "woolValue": 50
+    }
+  ],
+  "crops": [
+    {
+      "id": "clover",
+      "name": "三叶草",
+      "seedId": "seed_clover",
+      "color": "#91c879",
+      "growSeconds": 45,
+      "seedPrice": 6,
+      "sellPrice": 4,
+      "xp": 5,
+      "description": "小羊最爱的绿色点心。",
+      "yield": 3
+    },
+    {
+      "id": "carrot",
+      "name": "胡萝卜",
+      "seedId": "seed_carrot",
+      "color": "#eea16c",
+      "growSeconds": 75,
+      "seedPrice": 10,
+      "sellPrice": 7,
+      "xp": 8,
+      "description": "脆甜的日常收获。",
+      "yield": 3
+    },
+    {
+      "id": "daisy",
+      "name": "雏菊",
+      "seedId": "seed_daisy",
+      "color": "#fff1b1",
+      "growSeconds": 95,
+      "seedPrice": 14,
+      "sellPrice": 13,
+      "xp": 10,
+      "description": "把一小束春天种在田里。",
+      "yield": 2
+    },
+    {
+      "id": "wheat",
+      "name": "小麦",
+      "seedId": "seed_wheat",
+      "color": "#e9c96e",
+      "growSeconds": 110,
+      "seedPrice": 12,
+      "sellPrice": 8,
+      "xp": 10,
+      "description": "风吹麦浪，金色丰收。",
+      "yield": 3
+    },
+    {
+      "id": "lavender",
+      "name": "薰衣草",
+      "seedId": "seed_lavender",
+      "color": "#aa94d1",
+      "growSeconds": 150,
+      "seedPrice": 24,
+      "sellPrice": 23,
+      "xp": 14,
+      "description": "一整个午后的淡紫色香气。",
+      "yield": 2
+    },
+    {
+      "id": "pumpkin",
+      "name": "南瓜",
+      "seedId": "seed_pumpkin",
+      "color": "#e99152",
+      "growSeconds": 180,
+      "seedPrice": 32,
+      "sellPrice": 33,
+      "xp": 18,
+      "description": "圆滚滚的大丰收。",
+      "yield": 2
+    },
+    {
+      "id": "moonflower",
+      "name": "月光花",
+      "seedId": "seed_moonflower",
+      "color": "#d7daf8",
+      "growSeconds": 240,
+      "seedPrice": 48,
+      "sellPrice": 55,
+      "xp": 24,
+      "description": "天黑以后，花朵会轻轻发亮。",
+      "yield": 2
+    }
+  ],
+  "traits": [
+    "爱撒娇",
+    "小吃货",
+    "好奇宝宝",
+    "慢性子",
+    "蹦蹦跳跳",
+    "社交小羊"
+  ],
+  "rarities": {
+    "common": {
+      "name": "普通",
+      "color": "#b8b9a5"
+    },
+    "uncommon": {
+      "name": "清新",
+      "color": "#7fb393"
+    },
+    "rare": {
+      "name": "稀有",
+      "color": "#7aaaca"
+    },
+    "epic": {
+      "name": "梦幻",
+      "color": "#b499d5"
+    },
+    "legendary": {
+      "name": "传说",
+      "color": "#ddb35e"
+    }
+  },
+  "config": {
+    "daySeconds": 720,
+    "feedPrice": 5,
+    "breedingPrice": 45,
+    "breedingCooldown": 360,
+    "lambGrowSeconds": 300,
+    "adoptPrice": 110,
+    "initialCapacity": 8,
+    "xpThresholds": [
+      0,
+      80,
+      220,
+      460,
+      800,
+      1250,
+      1850,
+      2650
+    ],
+    "pasturePrices": [
+      260,
+      680
+    ],
+    "pastureCapacities": [
+      8,
+      14,
+      24
+    ],
+    "wateringPrices": [
+      180,
+      420
+    ],
+    "wateringGrowthBonus": [
+      0,
+      0.1,
+      0.2
+    ],
+    "breedMinHunger": 55,
+    "breedMinHappiness": 65,
+    "petCooldown": 15,
+    "shearMinWool": 100,
+    "cropYield": {
+      "clover": 3,
+      "carrot": 3,
+      "daisy": 2,
+      "wheat": 3,
+      "lavender": 2,
+      "pumpkin": 2,
+      "moonflower": 2
+    }
+  }
+}

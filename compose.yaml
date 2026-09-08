@@ -1,0 +1,35 @@
+name: shepherd-simulator
+
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      PORT: "8080"
+      STATIC_DIR: /app/dist
+      DATABASE_URL: postgres://flock:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@db:5432/flock?sslmode=disable
+    ports:
+      - "127.0.0.1:${APP_PORT:-8081}:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    stop_grace_period: 30s
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: flock
+      POSTGRES_USER: flock
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U flock -d flock"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  postgres-data:

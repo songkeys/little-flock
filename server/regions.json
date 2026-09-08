@@ -1,0 +1,125 @@
+{
+  "bounds": {
+    "minX": -32,
+    "maxX": 62,
+    "minZ": -46,
+    "maxZ": 38
+  },
+  "home": {
+    "id": "home",
+    "name": "羊羊基地",
+    "center": {
+      "x": -6,
+      "z": 4
+    },
+    "radius": 8,
+    "returnPoint": {
+      "x": -3,
+      "z": 4.5
+    },
+    "returnRadius": 4
+  },
+  "meadow": {
+    "id": "meadow",
+    "name": "铃兰花坡",
+    "bounds": {
+      "minX": -30,
+      "maxX": 11,
+      "minZ": 18,
+      "maxZ": 37
+    },
+    "unlockStep": 10,
+    "gate": {
+      "x": 0,
+      "z": 17
+    },
+    "grazePoint": {
+      "x": -10,
+      "z": 27
+    },
+    "grazeRadius": 7,
+    "waterPoint": {
+      "x": -20,
+      "z": 28
+    },
+    "waterRadius": 2.7
+  },
+  "forest": {
+    "id": "forest",
+    "name": "蘑菇秘林",
+    "bounds": {
+      "minX": 17,
+      "maxX": 46,
+      "minZ": -14,
+      "maxZ": 20
+    },
+    "unlockStep": 13,
+    "gate": {
+      "x": 16.8,
+      "z": 5
+    },
+    "forageRadius": 2.4,
+    "forageNodes": [
+      {
+        "id": "forest-mushroom-1",
+        "position": {
+          "x": 24,
+          "z": 1
+        },
+        "itemId": "mushroom"
+      },
+      {
+        "id": "forest-mushroom-2",
+        "position": {
+          "x": 33,
+          "z": -4
+        },
+        "itemId": "mushroom"
+      },
+      {
+        "id": "forest-mushroom-3",
+        "position": {
+          "x": 39,
+          "z": 8
+        },
+        "itemId": "mushroom"
+      },
+      {
+        "id": "forest-herb-1",
+        "itemId": "herb",
+        "position": {
+          "x": 28,
+          "z": 12
+        }
+      },
+      {
+        "id": "forest-herb-2",
+        "itemId": "herb",
+        "position": {
+          "x": 40,
+          "z": -8
+        }
+      }
+    ]
+  },
+  "highland": {
+    "id": "highland",
+    "name": "星落高地",
+    "bounds": {
+      "minX": 20,
+      "maxX": 60,
+      "minZ": -44,
+      "maxZ": -16
+    },
+    "unlockStep": 15,
+    "gate": {
+      "x": 31,
+      "z": -15
+    },
+    "viewPoint": {
+      "x": 43,
+      "z": -30
+    },
+    "viewRadius": 6
+  }
+}
