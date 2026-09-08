@@ -12,9 +12,9 @@
 
 ## Demo
 
-[![Watch the Little Flock gameplay demo](docs/demo-poster.jpg)](https://github.com/songkeys/little-flock/raw/refs/heads/main/docs/demo.mp4)
+[![Download the Little Flock gameplay demo](docs/demo-poster.jpg)](https://github.com/songkeys/little-flock/raw/refs/heads/main/docs/demo.mp4)
 
-[Watch / download the demo](docs/demo.mp4) · [Download the full 1080p trailer](https://github.com/songkeys/little-flock/releases/download/demo/little-flock-gameplay-trailer.mp4)
+[Download the demo (720p, 13 MB)](https://github.com/songkeys/little-flock/raw/refs/heads/main/docs/demo.mp4) · [Download the full 1080p trailer](https://github.com/songkeys/little-flock/releases/download/demo/little-flock-gameplay-trailer.mp4)
 
 A 64-second tour of the game: meeting the flock, building a home, caring for lambs, grazing, gardening, exploring the valley, and sharing a farm with friends. Captured in-engine with cinematic cameras and staged gameplay; the multiplayer shots use locally staged characters.
 
